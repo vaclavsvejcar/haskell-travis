@@ -26,7 +26,7 @@ library:
   source-dirs: src
 
 executables:
-  haskell-travis-exe:
+  haskell-travis:
     main:                Main.hs
     source-dirs:         app
     ghc-options:

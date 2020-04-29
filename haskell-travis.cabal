@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: de9248eb98d8663f856150ebc74ea8b66b81a9f86f1cf9b19883dcdb43fe6a90
+-- hash: 0f1bf7f738459b57cd0056654941ab017ea8428ca1625a52f05ad0941107d9c9
 
 name:           haskell-travis
 version:        0.1.0.0
@@ -36,7 +36,7 @@ library
       base >=4.7 && <5
   default-language: Haskell2010
 
-executable haskell-travis-exe
+executable haskell-travis
   main-is: Main.hs
   other-modules:
       Paths_haskell_travis
